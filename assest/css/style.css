@@ -91,12 +91,6 @@ h2{
 .topnav .icon {
   display: none;
 }
-
-
-
-
-
-
 .mainHeader nav ul li a{
 font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 font-size: 100%;
@@ -330,14 +324,10 @@ input::placeholder ,textarea::placeholder{
   flex-direction: row;
   text-align: center;
 }
-.footerContent{
-  width: 80%;
-}
 .contentFooter{
   width: 31.3%;
   text-align: center;
   margin: auto;
-
 }
 .contentFooter ul{
   list-style: none;
@@ -351,7 +341,7 @@ input::placeholder ,textarea::placeholder{
   height:auto;
 }
 .contentFooter ul li img{
-  width: 10%;
+  width: 8%;
   height: auto;
   border-radius: 50%;
 }
@@ -525,49 +515,28 @@ input::placeholder ,textarea::placeholder{
   display:flex;
   flex-direction: column;
 }
-
 .mainFooter{
-  width: 100%;
-  height: 70px;
-  background-color: #fff;
-}
-.footerContent{
-  width: 80%;
-  text-align: c
+  display: flex;
+  flex-direction: column;
 }
 .contentFooter{
-  width: 31.3%;
-  float: left;
+  width: 80%;
+  text-align: center;
+  margin: 2% auto;
 }
 .contentFooter ul{
   list-style: none;
   text-align: center;
 }
-.contentFooter ul li{
-  display: inline;
-  padding-left:4%;
-}
 .contentFooter ul li img{
   width: 10%;
-  height: auto;
-  border-radius: 50%;
 }
-.contentFooter ul li a{
-  text-align: center;
-  color: #fed136;
-  font-size: 70%;
-  padding-left: 1%;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.contentFooter ul li a:hover{
-  text-decoration: underline;
-  padding-top: 10%;
 
-  }
-.footerInfo{
-  text-align: center;
-   font-size: 100%;
-}
+
+
+
+
+
 .about{
   width: 100%;
   box-sizing: border-box;
@@ -600,8 +569,6 @@ display: none;
 .thirdDiv{
   width: 100%;
 }
-
-
 
 }
 
