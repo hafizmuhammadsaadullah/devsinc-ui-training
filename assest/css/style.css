@@ -532,11 +532,6 @@ input::placeholder ,textarea::placeholder{
   width: 10%;
 }
 
-
-
-
-
-
 .about{
   width: 100%;
   box-sizing: border-box;
@@ -569,6 +564,8 @@ display: none;
 .thirdDiv{
   width: 100%;
 }
+
+
 
 }
 
